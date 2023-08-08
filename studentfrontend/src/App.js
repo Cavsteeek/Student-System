@@ -1,11 +1,13 @@
 
 import './App.css';
 import Appbar from './components/AppBar';
+import Student from './components/Student';
 
 function App() {
   return (
     <div className="App">
     <Appbar/>
+    <Student/>
     </div>
   );
 }

@@ -29,8 +29,8 @@ export default function Appbar() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            News
+          <Typography variant="h6" className={classes.title} style={{fontSize: "30px"}}>
+            - Cavsteek University - 
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
